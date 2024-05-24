@@ -1,0 +1,184 @@
+
+ul {
+    list-style: none;
+
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+/* .louis_font {
+    font-family: "Louis Vuitton Web"  sans-serif;
+}
+
+.fallback_font {
+    font-family: "Louis Vuitton Web Fallback";
+}
+
+.helvetica_font {
+    font-family: "Helvetica Neue"  sans-serif;
+}
+
+.Helvetica {
+    font-family: "Helvetica",  sans-serif;
+} */
+
+:root {
+    /* font size  */
+    --fs-32: 2rem;
+    --fs-16: 1rem;
+    --fs-14: .8rem;
+    --fs-11: .7rem;
+
+    /* color  */
+    --block: #000;
+    --white: #fff;
+
+    /* font weight  */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+
+    /* text transform  */
+    --text-ts-uppercase: uppercase;
+    --text-ts-capitalize: capitalize;
+    --text-ts-lowercase: lowercase;
+
+}
+
+
+.pt-96 {
+    padding-top: 6rem;
+}
+.pb-96 {
+    padding-bottom: 6rem;
+}
+
+.px-64 {
+    padding: 0rem 4rem;
+}
+
+.py-96 {
+    padding: 6rem 0rem;
+}
+
+.px-160 {
+    padding: 0rem 10rem;
+}
+
+.mb-50 {
+    margin-bottom: 3.1rem;
+}
+
+.mb-28 {
+    margin-bottom: 1.8rem;
+}
+.mb-70 {
+    margin-bottom: 4.4rem;
+}
+
+
+.container {
+    max-width: 1590px !important;
+    width: 100%;
+}
+
+
+
+/* common style  */
+.header_top_subtile {
+    font-size: var(--fs-11);
+    font-weight: var(--fw-300);
+    color: var(--block);
+    text-transform: var(--text-ts-uppercase);
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.header_title {
+    font-size: var(--fs-32);
+    font-weight: var(--fw-400);
+    color: var(--block);
+    text-transform: var(--text-ts-capitalize);
+}
+
+.header_bottom_subtile {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--block);
+    text-transform: var(--text-ts-capitalize);
+    border-bottom: 1px solid var(--block);
+
+}
+
+
+
+
+
+/* video section style  */
+
+.play {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: all .3s ease;
+}
+.play.active {
+    display: none;
+}
+.pause {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: all .3s ease;
+}
+.pause.active {
+    display: block;
+}
+
+.muted {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all .3s ease;
+    display: block;
+}
+.muted_of {
+    display: none;
+}
+.sound {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: all .3s ease;
+    display: none;
+}
+
+.sound_on {
+    display: block;
+}
+
+
+
+
