@@ -48,3 +48,15 @@ btn_sound.addEventListener('click', () => {
 
 
 
+// follow click to follow section show 
+const follow_btn = document.getElementById('follow');
+const footer_middle = document.getElementById('footer_middle');
+const close_btn = document.getElementById('footer_middle_close');
+follow_btn.addEventListener('click', () => {
+    footer_middle.classList.add('active');
+})
+close_btn.addEventListener('click', () => {
+    footer_middle.classList.remove('active');
+})
+
+

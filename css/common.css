@@ -1,7 +1,8 @@
 
 ul {
     list-style: none;
-
+    padding: 0;
+    margin: 0;
 }
 
 img {
@@ -48,6 +49,9 @@ body{
     /* color  */
     --block: #000;
     --white: #fff;
+    --gray: rgb(118, 118, 118);
+    --border-color: #e1e1e1;
+    --bg:#EBE9E8;
 
     /* font weight  */
     --fw-300: 300;
@@ -84,6 +88,9 @@ body{
 .px-160 {
     padding: 0rem 10rem;
 }
+.px-40 {
+    padding: 2.5rem 0rem;
+}
 
 .mb-50 {
     margin-bottom: 3.1rem;
@@ -94,6 +101,18 @@ body{
 }
 .mb-70 {
     margin-bottom: 4.4rem;
+}
+
+.border-t {
+    border-top: 1px solid var(--border-color);
+}
+.border-b {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.min-h-527 {
+    min-height: 527px;
+    width: 100%;
 }
 
 
@@ -177,6 +196,15 @@ body{
 
 .sound_on {
     display: block;
+}
+
+
+
+
+.wishlist {
+    position: absolute;
+    top: -9px;
+    right: 20px;
 }
 
 
