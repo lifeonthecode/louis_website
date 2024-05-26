@@ -40,12 +40,13 @@
 .search_bar_box {
     display: flex;
     align-items: center;
-    gap: 13px;
+    /* gap: 13px; */
 }
 
 .search_bar_box button {
     background-color: transparent;
     border: transparent;
+    padding-right: .9rem;
 }
 
 .search_bar_box button i {
@@ -57,6 +58,7 @@
     color: var(--black);
     text-transform: var(--text-ts-capitalize);
     font-family: var(--ff-helvetica-neue);
+    cursor: pointer;
 }
 
 
@@ -272,7 +274,7 @@
 }
 
 .footer_wrapper button {
-    font-size: var(--fs-14);
+    font-size: var(--fs-16);
     font-weight: var(--fw-400);
     color: var(--black);
     background-color: transparent;
@@ -334,7 +336,7 @@
     margin-right: 5px;
 }
 
-.footer_earth a.footer_logo {
+a.footer_logo {
     font-size: var(--fs-32);
     font-weight: var(--fw-600);
     color: var(--black);

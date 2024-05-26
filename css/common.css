@@ -76,9 +76,11 @@ body{
 .px-160 {
     padding: 0rem 10rem;
 }
-.px-40 {
+.py-40 {
     padding: 2.5rem 0rem;
 }
+
+
 
 .mb-50 {
     margin-bottom: 3.1rem;
@@ -99,7 +101,7 @@ body{
 }
 
 .min-h-527 {
-    min-height: 527px;
+    max-height: 527px;
     width: 100%;
 }
 
