@@ -20,26 +20,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body{
-    font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: var(--ff-intrepid);
 }
 
-/* .louis_font {
-    font-family: "Louis Vuitton Web"  sans-serif;
-}
-
-.fallback_font {
-    font-family: "Louis Vuitton Web Fallback";
-}
-
-.helvetica_font {
-    font-family: "Helvetica Neue"  sans-serif;
-}
-
-.Helvetica {
-    font-family: "Helvetica",  sans-serif;
-} */
 
 :root {
+    /* font family  */
+    --ff-intrepid: 'Intrepid';
+    --ff-helvetica-neue: 'Helvetica Neue';
     /* font size  */
     --fs-32: 2rem;
     --fs-16: 1rem;
@@ -134,9 +122,10 @@ body{
 }
 .header_title {
     font-size: var(--fs-32);
-    font-weight: var(--fw-400);
+    font-weight: var(--fw-300);
     color: var(--block);
     text-transform: var(--text-ts-capitalize);
+    font-family: var(--ff-helvetica-neue);
 }
 
 .header_bottom_subtile {

@@ -53,7 +53,7 @@ const follow_btn = document.getElementById('follow');
 const footer_middle = document.getElementById('footer_middle');
 const close_btn = document.getElementById('footer_middle_close');
 follow_btn.addEventListener('click', () => {
-    footer_middle.classList.add('active');
+    footer_middle.classList.toggle('active');
 })
 close_btn.addEventListener('click', () => {
     footer_middle.classList.remove('active');
