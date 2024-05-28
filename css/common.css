@@ -191,11 +191,32 @@ body{
 
 
 
-
+/* wishlist  */
 .wishlist {
     position: absolute;
     top: -9px;
     right: 20px;
+}
+
+
+/* slider default style  */
+.slick-dots {
+    bottom: -60px;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background: #949494;
+    border-radius: 100%;
+}
+
+.slick-dots li.slick-active {
+    background-color: black;
 }
 
 
