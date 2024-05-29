@@ -18,13 +18,16 @@
 
 
     <!-- mobile section  -->
-    <section class="mobile_menu_container">
-        <div class="mobile_main_menu">
+    <section class="desktop_menu_container">
+        <!-- desktop menu close btn  -->
+        <div class="desktop_menu_close_box">
+            <button class="desktop_menu_close_btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="desktop_main_menu">
             <!-- item one  -->
-            
-            <div>
-                <ul>
-                    
+            <div class="desktop_menu_item">
+                <ul class="main_menu_item">
                     <li><a href="#">Gifts</a></li>
                     <li><a href="#">New</a></li>
                     <li><a href="#">Bags</a></li>
@@ -40,21 +43,32 @@
             </div>
 
             <!-- item two  -->
-            <div class="item_two">
-                <ul class="">
-                    <li><a href="#">Sustainability</a></li>
-                    <li><a href="#">Find a Store</a></li>
-                    <li><a href="#">ENGLISH (INTL)</a></li>
-                    <li><a href="#">Can we help you?</a></li>
-                </ul>
-
+            <div class="desktop_menu_item">
                 <!-- Accessibility box  -->
-                <div class="color_pucker_box">
-                    <button>Accessibility: Enhanced contrast box </button>
+                <div class="sustainability">
+                    <a href="#">Sustainability</a>
+                    <a href="#">Find a Store</a>
+                    <a href="#">ENGLISH (INTL)</a>
+                    <a href="#">Can we help you?</a>
+                    <div class="color_pucker_box">
+                        <button>Accessibility: Enhanced contrast box </button>
+
+                        <!-- switch button  -->
+                        <div class="btn_switch">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="switch_slider"></span>
+                            </label>
+                        </div>
+                    </div>
                 </div>
+
+                
 
             </div>
         </div>
+
+        <div class="bg_overlay"></div>
     </section>
 
     <!-- header section  -->
