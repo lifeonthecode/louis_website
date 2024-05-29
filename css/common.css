@@ -30,9 +30,10 @@ body{
     --ff-helvetica-neue: 'Helvetica Neue';
     /* font size  */
     --fs-32: 2rem;
+    --fs-24: 1.5rem;
     --fs-16: 1rem;
-    --fs-14: .8rem;
-    --fs-11: .7rem;
+    --fs-14: .7rem;
+    --fs-11: .5rem;
 
     /* color  */
     --block: #000;
@@ -60,6 +61,9 @@ body{
 
 .pt-96 {
     padding-top: 6rem;
+}
+.py-48 {
+    padding: 3rem 0rem;
 }
 .pb-96 {
     padding-bottom: 6rem;

@@ -33,6 +33,12 @@
 
 /* mobile devices  */
 @media (max-width: 576px) {
+    .px-64 {
+        padding: 0rem 1.4rem;
+    }
 
+    .header_middle_section a h4 {
+        font-size: var(--fs-24);
+    }
 
 }
